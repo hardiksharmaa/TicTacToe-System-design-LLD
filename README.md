@@ -1,7 +1,7 @@
 # TicTacToe-System-design-LLD (C++)
 A robust, object-oriented implementation of the classic Tic-Tac-Toe game designed for N x N grids. This project demonstrates clean code architecture, extensibility using design patterns, and algorithmic optimization suitable for Machine Coding Rounds.
 
-Features
+   Features
 
 Dynamic Grid Size: Supports any N x N grid (3x3, 4x4, 10x10, etc.).
 
@@ -13,7 +13,7 @@ Smart Validations: Handles out-of-bounds errors and occupied cells gracefully.
 
 Optimized Win checking: Uses an $O(N)$ algorithm instead of the standard $O(N^2)$ approach.
 
-Low-Level Design (LLD)
+   Low-Level Design (LLD)
 
 The system is architected using SOLID principles to ensure modularity. The core logic is decoupled from the game flow.
 
@@ -47,7 +47,7 @@ TicTacToeGame
 
 The Controller. It manages the game loop, turn rotation, and initializes the board/players.
 
-Visual Architecture
+   Visual Architecture
 
 classDiagram
     class TicTacToeGame {
@@ -74,7 +74,7 @@ classDiagram
     Player <|-- BotPlayer : inherits
 
 
-Design Patterns Used
+   Design Patterns Used
 
 1. Strategy Pattern (via Polymorphism)
 
@@ -93,18 +93,18 @@ The Player only cares about picking a coordinate.
 
 The Game only cares about whose turn it is.
 
-⚡ Algorithmic Optimization
+   ⚡ Algorithmic Optimization
 
 A naive approach to check for a winner involves scanning the entire board ($O(N^2)$) after every turn.
 
-My approach:
+   My approach:
 I implemented an optimized check that only inspects the Row, Column, and Diagonal specific to the last move made.
 
 Time Complexity: $O(N)$ per move.
 
 Space Complexity: $O(N^2)$ for the grid.
 
-🛠 How to Run
+   How to Run
 
 Compile the code:
 
@@ -116,13 +116,7 @@ Run the executable:
 ./game
 
 
-Follow the on-screen prompts:
-
-Enter Grid Size (e.g., 3 for standard, 5 for complex).
-
-Choose Opponent (Human or Bot).
-
-Future Improvements
+   Future Improvements
 
 [ ] Implement Minimax Algorithm for an unbeatable AI.
 
