@@ -1,5 +1,9 @@
 # TicTacToe-System-design-LLD (C++)
 
+
+![pic](https://github.com/user-attachments/assets/15d42309-820f-464f-80d7-246b11a10578)
+
+
 A robust, object-oriented implementation of the classic Tic-Tac-Toe game designed for N x N grids. This project demonstrates clean code architecture, extensibility using design patterns, and algorithmic optimization suitable for Machine Coding Rounds.
 
    Features
