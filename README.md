@@ -1,4 +1,5 @@
 # TicTacToe-System-design-LLD (C++)
+
 A robust, object-oriented implementation of the classic Tic-Tac-Toe game designed for N x N grids. This project demonstrates clean code architecture, extensibility using design patterns, and algorithmic optimization suitable for Machine Coding Rounds.
 
    Features
@@ -93,7 +94,7 @@ The Player only cares about picking a coordinate.
 
 The Game only cares about whose turn it is.
 
-   ⚡ Algorithmic Optimization
+  Algorithmic Optimization
 
 A naive approach to check for a winner involves scanning the entire board ($O(N^2)$) after every turn.
 
