@@ -3,6 +3,8 @@
 
 ![pic](https://github.com/user-attachments/assets/15d42309-820f-464f-80d7-246b11a10578)
 
+![minimax](https://github.com/user-attachments/assets/57f1a0ff-1371-4e9e-8717-94b7b43603f7)
+
 
 A robust, object-oriented implementation of the classic Tic-Tac-Toe game designed for N x N grids. This project demonstrates clean code architecture, extensibility using design patterns, and algorithmic optimization suitable for Machine Coding Rounds.
 
